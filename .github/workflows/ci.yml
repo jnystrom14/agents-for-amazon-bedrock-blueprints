@@ -10,6 +10,9 @@ on:
 env:
   envInfo: "CI/CD workflow"
 
+permissions:
+  contents: read
+
 jobs:
   git-secrets:
     runs-on: ubuntu-latest
